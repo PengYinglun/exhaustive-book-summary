@@ -1,0 +1,14 @@
+interface:
+  display_name: Exhaustive Book Summary
+  short_description: Complete book analysis in one unified DOCX
+  default_prompt: Use $exhaustive-book-summary to produce a complete unified analysis
+    of the uploaded book, including an externally sourced critical assessment.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
